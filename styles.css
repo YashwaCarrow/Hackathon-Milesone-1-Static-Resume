@@ -1,0 +1,125 @@
+body {
+    font-family: 'Roboto', sans-serif;
+    background-color: #1b1b1b;
+    color: #f2f2f2;
+    margin: 20px;
+    text-align: center;
+}
+
+/* Static Resume Title */
+h1 {
+    font-size: 48px;
+    color: #00ffbf;
+    text-transform: uppercase;
+    letter-spacing: 4px;
+    border-bottom: 2px solid #00ffbf;
+    padding-bottom: 10px;
+    margin-bottom: 20px;
+}
+
+/* Name Styling */
+#name {
+    font-size: 40px;
+    font-style: italic;
+    color: #ffffff;
+    margin-bottom: 20px;
+}
+
+/* Section titles */
+h3 {
+    font-size: 24px;
+    color: #00ffbf;
+    border-bottom: 2px solid #00ffbf;
+    padding-bottom: 5px;
+    margin-top: 30px;
+}
+
+/* Links */
+a {
+    color: #00ffbf;
+    text-decoration: none;
+}
+
+/* Buttons with cool animations */
+button {
+    padding: 10px 30px;
+    margin: 10px;
+    background-color: #ff007f;
+    color: white;
+    border: none;
+    cursor: pointer;
+    text-transform: uppercase;
+    transition: all 0.3s ease;
+    font-size: 16px;
+}
+
+button:hover {
+    background-color: #ff66b2;
+    transform: scale(1.1);
+}
+
+/* Toggleable sections are initially hidden */
+.hidden {
+    display: none;
+}
+
+/* Futuristic appearance for toggle sections */
+.section {
+    margin-top: 20px;
+    padding: 20px;
+    background: rgba(0, 255, 191, 0.1);
+    border: 2px solid #00ffbf;
+    border-radius: 10px;
+    animation: fadeIn 1s ease-in-out forwards;
+}
+
+/* Cool fade-in animation */
+@keyframes fadeIn {
+    0% {
+        opacity: 0;
+        transform: scale(0.9);
+    }
+    100% {
+        opacity: 1;
+        transform: scale(1);
+    }
+}
+
+/* List styling */
+ul {
+    list-style-type: none;
+    padding: 0;
+}
+
+li {
+    font-size: 18px;
+    color: #f2f2f2;
+    margin: 10px 0;
+}
+
+p {
+    font-size: 18px;
+}
+
+
+/* Footer Styles */
+footer {
+    padding: 20px;
+    background: linear-gradient(90deg, #000000, #ff0095);
+    color: white;
+    font-size: 1.2rem;
+    text-align: center;
+    position: relative;
+    width: 98%;
+    bottom: 0;
+    left: 0;
+   
+}
+
+
+/* Responsive footer for mobile screens */
+@media (max-width: 768px) {
+    footer {
+        font-size: 1rem;
+    }
+}
